@@ -6,7 +6,7 @@ vyo ist ein System, dass Menschen, die aufgrund von Stress vermehrt (ungesunde) 
 ## Technischer Ablauf
 Für den technischen Prototyp sind drei Hauptkomponenten erforderlich. Ein Arduino Uno, ein 1,5-Zoll-OLED-Display und ein MPR121-Touchsensor.
 
-Code
+### Code
 Der Code besteht aus zwei Dateien. In der Hauptdatei werden zu Beginn die notwendigen Bibliotheken aufgerufen. Danach werden die Variablen aus der externen Datei aufgerufen. In der externen Datei werden die selbst entworfenen Icons als Arduino lesbarer Code (Byte Arrays) festgehalten. In der Hauptdatei werden weiter die Dimensionen des Displays (128x128 Pixel) definiert. Daraufhin wird
 die Anzahl der verwendeten Elektroden (in diesem Fall 2) und die Anschlüsse des Displays mit den Pins des Arduinos festgelegt. Im Code werden anschließend die für die Icons notwendigen Farben erfasst.
 Nachdem mithilfe des Datentyps long eine Variable mit erweiterter Größe für die Nummernspeicherung und eine Zahl innerhalb der vorgegebenen Zufallsgenerierung definiert wurde, wird die serielle Verbindung gestartet. Über die serielle Schnittstelle werden Daten gesendet und empfangen. Die Baudrate bestimmt die Geschwindigkeit der Verbindung. Beim einfachen übertragen von Kommandos reicht eine Baudrate von 9600 Bit/s. Bit ist die Maßeinheit für den Informationsgehalt.
