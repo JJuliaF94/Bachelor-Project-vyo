@@ -1,7 +1,7 @@
 # Bachelor-Project-vyo
 Bachelor Project called vyo by Hannah Ackermann and Jasmin Julia Falk
 
-vyo ist ein System, dass Menschen, die aufgrund von Stress vermehrt (ungesunde) Nahrungsmittel konsumieren, dabei unterstützt ein gesundes Essverhalten zu entwickeln. Durch das Ausführen von vorgeschlagenen Aktivitäten, lernen Nutzer*innen ihre negativen Emotionen zu regulieren.
+vyo ist ein System, das Menschen, die aufgrund von Stress vermehrt (ungesunde) Nahrungsmittel konsumieren, dabei unterstützt ein gesundes Essverhalten zu entwickeln. Durch das Ausführen von vorgeschlagenen Aktivitäten, lernen Nutzer*innen ihre negativen Emotionen zu regulieren.
 
 ## Technischer Ablauf
 Für den technischen Prototyp sind drei Hauptkomponenten erforderlich. Ein Arduino Uno, ein 1,5-Zoll-OLED-Display und ein MPR121-Touchsensor.
